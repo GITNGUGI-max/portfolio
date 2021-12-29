@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 0;
+}
+.logo{
+    float: left;
+}
+
+.slide{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-image: url(../images/bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header{
+    position: relative;
+    padding: 60px 66px;
+}
+
+.header .menu {
+    float: right;
+    
+    
+} .menu ul li{
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.menu ul li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+    color: rgb(255, 255, 255);
+}
+.slideTitle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: Myriad Pro;
+}
+.slideTitle h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.slideTitle p{
+    font-size: 20px;
+    padding: 0 80px;
+    text-align: center;
+}
+.container{
+    padding:0 40px;
+}
+.container-title{
+    text-align: center;
+    width: 100%;
+    padding: 35px 0;
+    display: inline-block ;
+}
+.container-title{
+    font-size: 38px;
+    font-family: Myraid Pro;
+    color: #333;
+}
+.border span{
+    width:9px;
+    height:9px;
+    background-color: #9aabcf;
+    border-radius:100%;
+    display: inline-block;
+    margin: 0 3px;
+
+}
+.content-desc{
+    font-size: 16px;
+    color: #393838;
+    padding: 0 5px;
+    width:60%;
+    margin-left: 20%;
+    text-align: center;
+    float: left;
+    font-family: Myraida Pro;
+
+}
+.skill-section{
+    display: inline-block;
+    width: 100%;
+    padding: 45px 0;
+}
+.skill-img{
+    width:50%;
+    float: left;
+}
+.skill-img img{
+    width: 100%;
+}
+.skill-content{
+    width: 40%;
+    float: right;
+}
+h3.skill-title{
+    font-size: 28px;
+    font-family: Myriad Pro;
+    color: #393838;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+
+}
+.skills{
+    width: 100%;
+    padding-top: 15px;
+    float: left;
+}
+.skills i{
+    color: #393838;
+    font-family: Myriad Pro;
+}
+.skills span{
+    width:100%;
+    height: 35px;
+    margin-top:5px;
+    border:1px solid #9aabcf;
+    display: inline-block;
+    
+}
+.skills span abbr{
+    width: 100%;
+    height: 35px;
+    background-color: #9aabcf;
+    display: inline-block;
+
+}
+.about-content{
+    width: 100%;
+    float: left;
+    font-family: Myriad Pro;
+    color: #9aabcf;
+    padding: 35px 0;
+}
+.about-desc{
+    width: 50%;
+    float: left;
+
+}
+.about-desc p{
+    padding-bottom: 10px;
+}
+.about-img img{
+    width: 45%;
+    float:right;
+    
+}
+.desk-img img{
+    width: 30%;
+
+}
+ .desk3{
+    margin: 0 4%;
+}
+.clearfix{}
+
+.column{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Myriad Pro;
+    color: #393838;
+}
+.column img{
+    width: 50px;
+}
+.column col2{
+    margin: 0 4%;
+}
+.column{
+    float: right;
+}
+.column p{
+    padding-top: 10px;
+}
+.container .ourteam{
+    padding-top: 35px;
+    clear:left;
+}
+.tm, .employer{
+    width: 100%;
+    float:left;
+    box-sizing: border-box ;
+    padding:25px 45px 0;
+    font-family: Myriad Pro;
+
+}
+.employer{
+    padding: 0 35px 15px;
+}
+.employer-image{
+   
+    
+}
+.employer-image img{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+}
+.employer-detail{
+    width:70%;
+    float: left;
+    padding-left: 5px 0px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.employer-detail h3{
+    padding-bottom: 10px;
+}
+.employer-detail h5{
+    padding-bottom: 10px;
+}
+.employer-detail p{
+    font-weight:normal;
+}
+.employer-detail .mariam{
+    padding-left: 0px;
+    padding-right: 25px;
+}
+.portfolio{
+    padding: 10px;
+    width: 50%;
+}
+.portfolio img{
+    margin: 28px;
+}
+img{
+       box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+}
+a{
+    font-size: x-large;
+    color: blanchedalmond;
+}
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .logo{
+        float: left;
+    }
+    
+    .slide{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-image: url(../images/bg8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .header{
+        position: relative;
+        padding: 6px 6px;
+    }
+    
+    .header .menu {
+        float: right;
+        
+        
+    } .menu ul li{
+        list-style: none;
+        overflow: hidden;
+        display: inline-block;
+    
+    }
+    
+    .menu ul li a{
+        display: block;
+        text-align: center;
+        padding: 3px;
+        text-decoration: none;
+        font-size: .7em;
+        text-transform: uppercase;
+        font-family: Myriad Pro;
+        color: rgb(255, 255, 255);
+    }
+    .slideTitle{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        font-family: Myriad Pro;
+    }
+    .slideTitle h1{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .slideTitle p{
+        font-size: 15px;
+        padding: 0 0px;
+        text-align: center;
+    }
+    .container{
+        padding:0 10px;
+    }
+    .container-title{
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        display: inline-block ;
+        font-size: 20px;
+        font-family: Myraid Pro;
+        color: #333;
+    }
+    
+    .border span{
+        width:2px;
+        height:2px;
+        background-color: #9aabcf;
+        border-radius:100%;
+        display: inline-block;
+        margin: 0 1px;
+    
+    }
+    .content-desc{
+        font-size: 10px;
+        color: #393838;
+        padding: 0 2.5px;
+        width:60%;
+        margin-left: 20%;
+        text-align: center;
+        float: left;
+        font-family: Myraida Pro;
+    
+    }
+    .skill-section{
+        display: inline-block;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .skill-img{
+        width:50%;
+        float: left;
+    }
+    .skill-img img{
+        width: 100%;
+    }
+    .skill-content{
+        width: 40%;
+        float: right;
+    }
+    h3.skill-title{
+        font-size: 28px;
+        font-family: Myriad Pro;
+        color: #393838;
+        font-weight: 500;
+        float: left;
+        width: 100%;
+    
+    }
+    .skills{
+        width: 100%;
+        padding-top: 15px;
+        float: left;
+    }
+    .skills i{
+        color: #393838;
+        font-family: Myriad Pro;
+    }
+    .skills span{
+        width:100%;
+        height: 35px;
+        margin-top:5px;
+        border:1px solid #9aabcf;
+        display: inline-block;
+        
+    }
+    .skills span abbr{
+        width: 100%;
+        height: 35px;
+        background-color: #9aabcf;
+        display: inline-block;
+    
+    }
+    .about-content{
+        width: 100%;
+        float: left;
+        font-family: Myriad Pro;
+        color: #9aabcf;
+        padding: 35px 0;
+    }
+    .about-desc{
+        width: 50%;
+        float: left;
+    
+    }
+    .about-desc .lorem{
+        display: none;
+    }
+    .about-img img{
+        width: 45%;
+        float:right;
+        
+    }
+    .desk-img img{
+        width: 30%;
+    
+    }
+     .desk3{
+        margin: 0 0%;
+    }
+    .clearfix{}
+    
+    .column{
+        width: 30%;
+        float: left;
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        font-family: Myriad Pro;
+        color: #393838;
+    }
+    .column img{
+        width: 25px;
+    }
+    .column .col2{
+        margin: 0 2%;
+        
+    }
+    .column{
+        float: right;
+    }
+    .column p{
+        padding-top: 10px;
+    }
+    .container .ourteam{
+        padding-top: 35px;
+        clear:left;
+        display: none;
+    }
+    .tm, .employer{
+        width: 100%;
+        float:left;
+        box-sizing: border-box ;
+        padding:25px 45px 0;
+        font-family: Myriad Pro;
+    
+    }
+    .employer{
+        padding: 0 35px 15px;
+    }
+ 
+    .employer-image img{
+        width: 50%;
+        border-radius: 50%;
+        float: left;
+    }
+    .employer-detail{
+        width:100%;
+        padding-left: 5px 0px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    
+    .employer-detail h3{
+        padding-bottom: 10px;
+    }
+    .employer-detail h5{
+        padding-bottom: 10px;
+    }
+    .employer-detail p{
+        font-weight:normal;
+    }
+    .employer-detail .mariam{
+        padding-left: 0px;
+        padding-right: 25px;
+    }
+    .portfolio{
+        padding: 10px;
+        width: 50%;
+    }
+    .portfolio img{
+        margin: 28px;
+    }
+    img{
+           box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+    }
+    a{
+        font-size: x-large;
+        color: blanchedalmond;
+    }
+    
+}
